@@ -1,0 +1,332 @@
+body {
+    font-family: forma-djr-display, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f7f2;
+    color: #221f1f;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 25px;
+    text-align: left;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #edece7;
+    color: #221f1f;
+    padding: 25px 0;
+    position: relative;
+    z-index: 1;
+}
+
+.hero h1 {
+    font-size: 89px;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-align: left;
+    line-height: 80px;
+    margin: 0;
+}
+
+.hero h2 {
+    font-size: 55px;
+    font-style: italic;
+    text-transform: uppercase;
+    text-align: left;
+    line-height: 55px;
+    margin: 0;
+    padding-top: 15px;
+}
+
+.hero p {
+    font-size: 26px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-align: left;
+    line-height: 34px;
+    margin: 0;
+    padding-top: 25px;
+    text-decoration: none;
+}
+
+.hero img {
+    width: 25%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-bottom: -175px;
+    padding-right: 25px;
+}
+
+html {
+  scroll-behavior: smooth;
+    }
+
+#twitter {
+  text-align: right;
+  padding: 5px;
+}
+
+/* Button */
+button {
+    display: inline-block;
+    width: 100%;
+    background-color: #c0d7eb;
+    color: #121212;
+    padding: 25px;
+    font-size: 26px;
+    font-weight: 800;
+    text-transform: uppercase;
+    border: 1px solid #221f1f;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+    margin-top: 50px;
+}
+
+button:hover {
+    border-width: 1px 3px 3px 1px;
+}
+
+/* How it Works Section */
+.how-it-works {
+    background-color: #f8f7f2;
+    padding-top: 50px;
+}
+
+.steps {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 25px;
+}
+
+.step {
+    background-color: #d6f49d;
+    padding: 20px;
+    border: 1px solid #221f1f;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.step h3 {
+    font-size: 34px;
+    text-transform: uppercase;
+    text-align: left;
+    line-height: 34px;
+    margin: 0;
+}
+
+.step p {
+    font-size: 21px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-align: left;
+    line-height: 26px;
+    margin: 0;
+    padding-top: 10px;
+}
+
+/* Email Action Section */
+.email-action {
+    background-color: #edece7;
+    color: #221f1f;
+    margin-top: -75px;
+    padding-top: 75px;
+}
+
+.email-action h2 {
+    font-size: 46px;
+    text-transform: uppercase;
+    text-align: left;
+    line-height: 55px;
+    margin: 0;
+}
+
+.email-action p {
+    font-size: 26px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-align: left;
+    line-height: 34px;
+    margin: 0;
+    padding-top: 25px;
+}
+
+.img {
+    max-width: 50%;
+    height: auto;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    background-color: #edece7;
+    color: #221f1f;
+}
+
+a {
+    display: block;
+    width: 100%;
+}
+
+a img {
+    width: 25%;
+    height: auto;
+    display: inline-block;
+}
+
+/* Media Queries for Responsive Design */
+
+/* Tablet */
+@media (max-width: 768px) {
+    .hero {
+        padding: 25px;
+    }
+
+    .hero h1 {
+        font-size: 64px;
+        line-height: 64px;
+    }
+
+    .hero h2 {
+        font-size: 34px;
+        line-height: 34px;
+    }
+
+    .hero p {
+        margin-top: -5px;
+        font-size: 21px;
+        line-height: 26px;
+    }
+
+    .hero img {
+        width: 25%;
+        margin-bottom: -175px;
+    }
+
+    .container {
+        padding: 20px;
+    }
+
+    button {
+        font-size: 26px;
+        padding: 25px;
+    }
+
+    .steps {
+        gap: 25px;
+        padding: 0 15px;
+    }
+
+    .step h3 {
+        font-size: 26px;
+    }
+
+    .step p {
+        font-size: 16px;
+        line-height: 21px;
+    }
+
+    .email-action {
+        margin-top: -100px;
+        padding-top: 100px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .email-action h2 {
+        font-size: 34px;
+    }
+
+    .email-action p {
+        font-size: 21px;
+        line-height: 26px;
+    }
+
+    footer {
+        padding-bottom: 50px;
+    }
+
+    a img {
+        width: 50%;
+    }
+}
+
+/* Mobile */
+@media (max-width: 500px) {
+    .hero {
+        padding: 0;
+    }
+
+    .hero h1 {
+        font-size: 55px;
+        line-height: 55px;
+    }
+
+    .hero h2 {
+        font-size: 34px;
+        line-height: 34px;
+    }
+
+    .hero p {
+        font-size: 16px;
+        line-height: 21px;
+    }
+
+    .hero img {
+        width: 35%;
+        margin-bottom: -125px;
+        padding: 0;
+    }
+
+    .container {
+        padding: 25px;
+    }
+
+    button {
+        font-size: 21px;
+        padding: 25px;
+    }
+
+    .steps {
+        gap: 25px;
+        padding: 0 10px;
+    }
+
+    .step h3 {
+        font-size: 26px;
+    }
+
+    .step p {
+        font-size: 16px;
+        line-height: 21px;
+    }
+
+    .email-action {
+        padding-top: 75px;
+    }
+
+    .email-action h2 {
+        font-size: 34px;
+    }
+
+    .email-action p {
+        font-size: 16px;
+        line-height: 21px;
+    }
+
+    footer {
+        padding-bottom: 25px;
+    }
+
+    a img {
+        width: 75%;
+    }
+
+}
