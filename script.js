@@ -244,9 +244,20 @@ ${thanks} ${inAdvance} for standing up for your ${hardworkingConstituents}.`;
     ","
   )}?subject=${encodedSubject}&body=${encodedBody}`;
   window.location.href = emailLink;
+  
+  emailCount("sendEmailButton")
 }
 
 // Attach the function to a button
 document
   .getElementById("sendEmailButton")
   .addEventListener("click", generateRandomEmail);
+
+async function emailCount(buttonID) {
+  const url = `https://ptb-tracking.gz4c.org/?button=${buttonID}`;
+  // const url = 'https://pumpthebreaks-tracking-368099953691.us-central1.run.app?button=0'
+
+  const resposne = fetch(url)
+    .then((response) => response.json())
+    .then((data) => console.log(data));
+}
