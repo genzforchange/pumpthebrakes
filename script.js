@@ -13,7 +13,7 @@ const emailAddresses = [
   "sen.dawn.white@capitol.tn.gov", // Dawn White (R)
   "sen.shane.reeves@capitol.tn.gov", // Shane Reeves (R)
   "sen.paul.bailey@capitol.tn.gov", // Paul Bailey (R)
-  "sen.janice.bowling@capitol.tn.gov", // Janice Bowling (R)
+  // "sen.janice.bowling@capitol.tn.gov", // Janice Bowling (R)
   "sen.mark.pody@capitol.tn.gov", // Mark Pody (R)
   "sen.ferrell.haile@capitol.tn.gov", // Ferrell Haile (R)
   "sen.charlane.oliver@capitol.tn.gov", // Charlane Oliver (D)
